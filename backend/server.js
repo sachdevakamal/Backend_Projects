@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 // get a list of 5 jokes in an array of object with the following format: { id: 1, joke: "joke text" }
-app.get('/jokes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
   const jokes = [
     { id: 1, joke: "Why don't scientists trust atoms? Because they make up everything!" },
     { id: 2, joke: "Why did the scarecrow win an award? Because he was outstanding in his field!" },
